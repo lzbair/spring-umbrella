@@ -1,0 +1,9 @@
+app\Legacy.class
+com\portal\selfcare\services\WelcomeController.class
+com\portal\authorization\services\AuthorizationServerConfig.class
+app\SelfCare.class
+com\portal\authorization\services\WebSecurityConfig.class
+app\Portal.class
+com\portal\selfcare\services\ResourceServerConfig.class
+com\portal\shared\Tokens.class
+app\OAuth2.class

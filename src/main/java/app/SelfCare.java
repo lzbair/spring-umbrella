@@ -4,7 +4,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 
 
-@SpringBootApplication(scanBasePackages = "com.portal.selfecare.services")
+@SpringBootApplication(scanBasePackages = "com.portal.selfcare.services")
 class SelfCare {
     void run(String[] args) {
         new SpringApplicationBuilder(getClass())
