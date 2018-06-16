@@ -1,0 +1,12 @@
+# Reactor: #   
+Event-based (contrast with thread-based) pattern for handling service requests delivered concurrently to a service handler by one or more input.The service handler then demultiplexes the incoming requests and dispatches them synchronously to the associated request handlers.
+
+# Applications: #  
+
+Notification service of large online shopping application like Amazon  
+Huge transaction processing services of banking sector  
+Share trade business where share prices changes simultaneously  
+
+# Reference: #  
+Reactive streams specification; https://github.com/reactive-streams/reactive-streams-jvm  
+Spring implementation: https://projectreactor.io/                                                                                                                                      
