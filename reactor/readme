@@ -9,4 +9,7 @@ Share trade business where share prices changes simultaneously
 
 # Reference: #  
 Reactive streams specification; https://github.com/reactive-streams/reactive-streams-jvm  
-Spring implementation: https://projectreactor.io/                                                                                                                                      
+Spring implementation: https://projectreactor.io/
+
+Run on debug mode:  
+java -jar java -Xdebug -Xrunjdwp:server=y,transport=dt_socket,address=8000,suspend=n target/reactor-1.0-SNAPSHOT.jar                                                                                                                                        
